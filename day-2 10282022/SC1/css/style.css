@@ -1,0 +1,80 @@
+/* 
+
+selector {
+
+    key:value;
+    key:value;
+    key:value;
+    key:value;
+    key:value;
+    
+
+}
+
+
+*/
+
+
+/* TAGNAME */
+
+h1{
+    color: orange;
+}
+
+/* id */
+
+#title{
+    color: blue;
+}
+
+/* class */
+.custom-title{
+    color: red;
+}
+
+
+
+.test-p{
+    color: #878787;
+    font-size: 21px;
+    text-align: center;
+    line-height: 44px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    text-decoration: auto;
+    font-family: sans-serif;
+    /*font-family: 'Fasthand', cursive;*/
+    font-weight: bold;
+}
+
+
+.shape{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+
+.block{
+    border: 1px solid;
+    padding: 10px 20px 15px 5px;
+    margin: 20px;
+
+    /*
+    padding-top: ;
+    padding-bottom: ;
+    padding-right: ;
+    padding-left: ;
+    */
+
+   /*
+    margin-top: ;
+    margin-bottom: ;
+    margin-left: ;
+    margin-right: ;
+   */
+}

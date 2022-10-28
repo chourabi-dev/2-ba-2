@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+    <form action="/auth" method="get">
+
+        <label for="username">username</label>  <br>
+        <input 
+        type="text" 
+        id="username" 
+        name="username"  
+        placeholder="Your username please" 
+        required
+        minlength="6"
+        maxlength="10"
+        > <br><br>
+
+
+
+        <label for="password">Password</label>  <br>
+        <input type="password" id="password" name="password"  placeholder="Your password please" 
+        
+        required
+        
+        pattern="[a-z]{3}"
+
+        title="password must be 3chars and 3 dicimals"
+        
+        > 
+
+
+        <br>
+
+
+
+        <label for="email">Email</label>  <br>
+        <input type="email" id="email" name="email"  placeholder="Your email please" required> 
+
+
+        <br>
+
+
+        <button type="submit">connect</button>
+        <button type="reset">reset</button>
+        
+
+        
+        
+
+
+    </form>
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,83 @@
+.banner{
+    border: 1px solid #cacaca;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+.banner > .title{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #03a9f4;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.banner > .content{
+    color: grey;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.banner > .actions > button{
+    border: 0;
+    padding: 10px 30px;
+    background-color: orange;
+    border-radius: 30px;
+}
+
+
+
+.list >li:last-child{
+    color: orange;
+}
+
+
+.list >li:first-child{
+    color: orange;
+}
+
+
+.list >li:nth-child(4) {
+    color: blue;
+}
+
+.list >li:nth-child(2n) {
+    color: red;
+}
+
+.list >li:nth-child(2n + 1) {
+    color: yellow;
+}
+
+
+.bg{
+    background-image: url(../imgs/bg.jpg);
+    height: 302px;
+    width: 419px;
+    background-position: center;
+    background-size: cover;
+    background-color: orange;
+    background-repeat: no-repeat;
+}
+
+
+.feild{
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+    position: relative;
+}
+
+.ball{
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    /* top: 113px; */
+    /* left: 212px; */
+    bottom: 48px;
+    right: 60px;
+}
