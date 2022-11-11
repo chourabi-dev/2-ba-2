@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+
+.row{
+    display: flex;
+}
+
+
+/* 100% screnn => 12 col */
+
+.col-1{
+    width: 8.333333333%;
+} 
+.col-2{
+    width: 16.666666%;
+} 
+.col-3{
+    width: 25%;
+} 
+.col-4{
+    width: 33.3333333333%;
+}  
+.col-5{
+    width: 41.66666666%;
+} 
+.col-6{
+    width: 50%;
+} 
+.col-12{
+    width: 100%;
+}
+
+
+.content-between{
+    justify-content: space-between;
+}
+
+
+.avatar > img{
+    width: 100%;
+}
+
+
+.avatar{
+    width: 90px;
+}
+
+.user-info{
+    display: flex;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.user-info > .info {
+    margin-top: 26px;
+    margin-left: 15px;
+}
+
+
+.article{
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 20px;
+}
